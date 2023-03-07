@@ -1,0 +1,64 @@
+.container {
+    max-height: 400px;
+    width: 300px;
+    border-radius: 2px;
+    background: white;
+    scroll-behavior: auto;
+    background-color: black;
+  }
+  body {
+    font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+    color: white;
+    background-color: black;
+  }
+  #status {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  #loading {
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  .patient-list {
+    max-height: 250px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    /* max-width: 100%; */
+  }
+  .button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.button:hover {opacity: 1}
+tr, table{
+      text-overflow: ellipsis;
+      border: 1px solid black;
+      /* padding: 2px; */
+      background-color: black;
+      margin: auto;
+      /* margin-top: 2px; */
+  }
+
+  td{
+    padding: 1%;
+  }
+
+  td:hover {
+    background-color: #5170e1;
+    cursor: pointer;
+  }

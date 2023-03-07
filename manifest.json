@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "TabsMania",
+    "version": "0.1",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Bookmarks"
+    },
+    "permissions":["activeTab","scripting","tabs"],
+    "web_accessible_resources": [
+        {
+          "resources": [ "extension.js" ],
+          "matches": [ "https://*/*" ]
+        }
+      ]
+}
