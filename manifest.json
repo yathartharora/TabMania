@@ -6,7 +6,7 @@
         "default_popup": "index.html",
         "default_title": "Tabs Manager"
     },
-    "permissions":["activeTab","scripting","tabs"],
+    "permissions":["tabs"],
     "web_accessible_resources": [
         {
           "resources": [ "extension.js" ],
